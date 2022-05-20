@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d65b570-8706-475d-9e57-024be504a9a5" name="Changes" comment="feat: advanced calculator program added.">
+      <change afterPath="$PROJECT_DIR$/src/JAVA101/METOTLAR/RecursiveIleUstHesabiYapanProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GelismisHesapMakinesi">
+  <component name="RunManager" selected="Application.RecursiveIleUstHesabiYapanProgram">
     <configuration name="GelismisHesapMakinesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JAVA101.METOTLAR.GelismisHesapMakinesi" />
       <module name="PatikaOdev" />
@@ -83,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursiveIleUstHesabiYapanProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA101.METOTLAR.RecursiveIleUstHesabiYapanProgram" />
+      <module name="PatikaOdev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAVA101.METOTLAR.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursiveIleUstHesabiYapanProgram" />
         <item itemvalue="Application.GelismisHesapMakinesi" />
         <item itemvalue="Application.PalindromSayilar" />
       </list>
@@ -105,6 +120,7 @@
       <workItem from="1653051825903" duration="1942000" />
       <workItem from="1653060762873" duration="1994000" />
       <workItem from="1653063064508" duration="322000" />
+      <workItem from="1653064113185" duration="937000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1650543703735</created>
