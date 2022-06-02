@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d65b570-8706-475d-9e57-024be504a9a5" name="Changes" comment="feat: recursive pow program added">
-      <change afterPath="$PROJECT_DIR$/src/JAVA101/METOTLAR/RecursiveIsPrime.java" afterDir="false" />
+    <list default="true" id="8d65b570-8706-475d-9e57-024be504a9a5" name="Changes" comment="feat: OgrenciBilgiSistemi added">
+      <change afterPath="$PROJECT_DIR$/src/JAVA101/SINIFLAR/BoksOyunu/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA101/SINIFLAR/BoksOyunu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA101/SINIFLAR/BoksOyunu/Ring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,24 +49,26 @@
     <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sercu/IdeaProjects/PatikaOdev",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
-  <component name="RunManager" selected="Application.RecursiveIsPrime">
-    <configuration name="GelismisHesapMakinesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JAVA101.METOTLAR.GelismisHesapMakinesi" />
+}]]></component>
+  <component name="RunManager" selected="Application.JAVA101.SINIFLAR.BoksOyunu.Main">
+    <configuration name="JAVA101.SINIFLAR.BoksOyunu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA101.SINIFLAR.BoksOyunu.Main" />
       <module name="PatikaOdev" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JAVA101.METOTLAR.*" />
+          <option name="PATTERN" value="JAVA101.SINIFLAR.BoksOyunu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +76,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromSayilar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JAVA101.METOTLAR.PalindromSayilar" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA101.SINIFLAR.OgrenciBilgiSistemi.Main" />
+      <module name="PatikaOdev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAVA101.SINIFLAR.OgrenciBilgiSistemi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveDeseneGoreMetot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA101.METOTLAR.RecursiveDeseneGoreMetot" />
       <module name="PatikaOdev" />
       <extension name="coverage">
         <pattern>
@@ -112,10 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JAVA101.SINIFLAR.BoksOyunu.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RecursiveDeseneGoreMetot" />
         <item itemvalue="Application.RecursiveIsPrime" />
         <item itemvalue="Application.RecursiveIleUstHesabiYapanProgram" />
-        <item itemvalue="Application.GelismisHesapMakinesi" />
-        <item itemvalue="Application.PalindromSayilar" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +155,10 @@
       <workItem from="1653063064508" duration="322000" />
       <workItem from="1653064113185" duration="2813000" />
       <workItem from="1653073881524" duration="5000" />
-      <workItem from="1653079723131" duration="384000" />
+      <workItem from="1653079723131" duration="3200000" />
+      <workItem from="1653132530851" duration="44000" />
+      <workItem from="1653132751921" duration="29000" />
+      <workItem from="1654182404517" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1650543703735</created>
@@ -159,7 +181,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653065093694</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: recursive prime number checker added.">
+      <created>1653080222413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653080222413</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: recursive desene göre metot added.">
+      <created>1654182868239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654182868239</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: OgrenciBilgiSistemi added">
+      <created>1654184706575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654184706575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +223,10 @@
     <MESSAGE value="Changes" />
     <MESSAGE value="feat: PalindromSayilarr added." />
     <MESSAGE value="feat: recursive pow program added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: recursive pow program added" />
+    <MESSAGE value="feat: recursive prime number checker added." />
+    <MESSAGE value="feat: recursive desene göre metot added." />
+    <MESSAGE value="feat: OgrenciBilgiSistemi added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: OgrenciBilgiSistemi added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
